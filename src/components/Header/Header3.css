@@ -1,0 +1,36 @@
+.menu {
+  display: flex;
+  gap: 20px;
+  background: #f8f9fa;
+  padding: 10px;
+}
+
+.menu-item {
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  z-index: 1000; /* Đảm bảo hiển thị trên các phần khác */
+}
+
+.submenu a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  display: block;
+}
+
+.submenu a:hover {
+  background: lightgray;
+}
