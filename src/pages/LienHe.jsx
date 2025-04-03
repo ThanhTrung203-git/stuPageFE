@@ -1,11 +1,11 @@
 import Header from "../components/Header/Header";
 
-const GioiThieu = () => {
+const LienHe = () => {
   return (
     <>
     <Header/>
-    <div>gioi thieu</div>
+    <div>LienHe</div>
     </>
   );
 };
-export default GioiThieu;
+export default LienHe;
