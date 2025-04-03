@@ -2,7 +2,6 @@
   display: flex;
   gap: 20px;
   background: #0C4DA2;
-  padding: 10px;
   justify-content: center;
 }
 
@@ -17,7 +16,7 @@
   color: white;
 }
 
-.menu a:hover {
+.menu-item:hover {
   background: #00AEEF;
   transition: background-color 0.3s ease;
 }

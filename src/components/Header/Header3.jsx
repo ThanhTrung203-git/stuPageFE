@@ -81,7 +81,6 @@ const menuItems = [
 const Header3 = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
-
   return (
     <div className="menu">
       {menuItems.map((item, index) => (

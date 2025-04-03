@@ -30,6 +30,8 @@ import BieuMau from "./pages/sinhvien/BieuMau";
 import HuongDan from "./pages/sinhvien/HuongDan";
 import HocBong from "./pages/sinhvien/HocBong";
 import TapChi from "./pages/TapChi";
+import Footer from "./components/Footer/Footer";
+import KDesign from "./pages/khoa/KDesign";
 
 function App() {
   return (
@@ -67,6 +69,7 @@ function App() {
         <Route path="/khoa-dien-dientu" element={<KDienDtu/>} />
         <Route path="/khoa-co-khi" element={<KCoKhi/>} />
         <Route path="/khoa-qt-kd" element={<KQtriKdoanh/>} />
+        <Route path="/khoa-design" element={<KDesign/>} />
         {/*Liên hệ*/}
         <Route path="/lien-he" element={<LienHe/>} />
         {/*Sinh viên*/}
@@ -77,6 +80,7 @@ function App() {
         {/*Tạp chí*/}
         <Route path="/tap-chi" element={<TapChi/>} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
     </>
   );

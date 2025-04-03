@@ -1,0 +1,15 @@
+.F1_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cột bằng nhau */
+    gap: 10px;
+    width: 70%; /* 100% - (15% * 2) = 70% */
+    margin: 0 auto; /* Căn giữa */
+}
+
+.link {
+    color: white;
+}
+
+.link:hover {
+    text-decoration: underline; /* Gạch chân khi hover */
+}
