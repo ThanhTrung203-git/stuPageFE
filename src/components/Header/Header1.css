@@ -3,6 +3,7 @@
     justify-content: center;
     box-sizing: border-box;
     background-color: #F2FAFE;
+    padding-top: 5px;
 }
 ul {
     list-style-type: none; /* Loại bỏ dấu chấm của danh sách */

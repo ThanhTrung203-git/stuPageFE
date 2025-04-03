@@ -5,11 +5,12 @@ import ceaLogo from "../../assets/logo2.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import stuCode from "../../assets/stuCode.png"
+import { Link } from "react-router-dom";
 const Header2 = () => {
     return (
         <div className="H2_container">
             <div className="column-1">
-                <img src={stuLogo} alt="" />
+                <Link to={"/"}><img src={stuLogo} alt="" /></Link>
             </div>
             <div className="column-2">
             <img src={ceaLogo} alt="" />

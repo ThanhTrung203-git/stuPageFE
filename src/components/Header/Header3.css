@@ -1,14 +1,25 @@
 .menu {
   display: flex;
   gap: 20px;
-  background: #f8f9fa;
+  background: #0C4DA2;
   padding: 10px;
+  justify-content: center;
 }
 
 .menu-item {
   position: relative;
   padding: 10px;
   cursor: pointer;
+  color: white;
+}
+
+.menu-title {
+  color: white;
+}
+
+.menu a:hover {
+  background: #00AEEF;
+  transition: background-color 0.3s ease;
 }
 
 .submenu {
@@ -32,5 +43,5 @@
 }
 
 .submenu a:hover {
-  background: lightgray;
+  background: #28ef00;
 }

@@ -61,10 +61,21 @@ const menuItems = [
       { title: "Tra cứu Dữ liệu Tốt Nghiệp", link: "http://daotao3.stu.edu.vn/tracuutotnghiep/" },
       { title: "Biểu mẫu", link: "/bieu-mau" },
       { title: "Hướng dẫn", link: "/huong-dan" },
-      { title: "Ban Thanh tra", link: "https://accounts.google.com/v3/signin/identifier?flowEntry=AddSession&flowName=GlifWebSignIn&hd=student.stu.edu.vn&sacu=1&service=mail&dsh=S-2013176839%3A1743657989542467" },
+      { title: "Email: @student.stu.edu.vn", link: "https://accounts.google.com/v3/signin/identifier?flowEntry=AddSession&flowName=GlifWebSignIn&hd=student.stu.edu.vn&sacu=1&service=mail&dsh=S-2013176839%3A1743657989542467" },
       { title: "Học bổng", link: "/hoc-bong" },
     ],
   },
+  {
+    title: "Đoàn thể",
+    subItems: [
+      { title: "Văn bản", link: "/doan-thanh-nien" },
+      { title: "Đảng bộ", link: "http://daotao1.stu.edu.vn/" },
+      { title: "Công đoàn", link: "http://daotao3.stu.edu.vn/tracuutotnghiep/" },
+      { title: "Email: @stu.edu.vn", link: "https://accounts.google.com/v3/signin/identifier?continue=http%3A%2F%2Fmail.google.com%2Fa%2Fstu.edu.vn%2F&hd=stu.edu.vn&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-332307488%3A1743659082908670" },
+      { title: "Nhân sự", link: "https://personnel.stu.edu.vn/" },
+    ],
+  },
+  { title: "Tạp chí", link: "/tap-chi" },
 ];
 
 const Header3 = () => {

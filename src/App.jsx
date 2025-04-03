@@ -29,6 +29,7 @@ import DoanThanhNien from "./pages/sinhvien/DoanThanhNien";
 import BieuMau from "./pages/sinhvien/BieuMau";
 import HuongDan from "./pages/sinhvien/HuongDan";
 import HocBong from "./pages/sinhvien/HocBong";
+import TapChi from "./pages/TapChi";
 
 function App() {
   return (
@@ -73,6 +74,8 @@ function App() {
         <Route path="/bieu-mau" element={<BieuMau/>} />
         <Route path="/huong-dan" element={<HuongDan/>} />
         <Route path="/hoc-bong" element={<HocBong/>} />
+        {/*Tạp chí*/}
+        <Route path="/tap-chi" element={<TapChi/>} />
       </Routes>
     </BrowserRouter>
     </>
