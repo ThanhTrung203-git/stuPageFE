@@ -45,7 +45,7 @@ const Footer1 = () => {
             <ul>
                 <li>
                     <img src={loginIcon}/>
-                    <Link to={"/"} className="link">Đăng nhập</Link>
+                    <Link to={"/login"} className="link">Đăng nhập</Link>
                 </li>
                 <li>
                 <img src={emailIcon}/>

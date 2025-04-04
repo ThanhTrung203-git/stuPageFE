@@ -32,11 +32,13 @@ import HocBong from "./pages/sinhvien/HocBong";
 import TapChi from "./pages/TapChi";
 import Footer from "./components/Footer/Footer";
 import KDesign from "./pages/khoa/KDesign";
-
+import LoginForm from "./pages/LoginForm";
+import Header from "./components/Header/Header";
 function App() {
   return (
     <>
     <BrowserRouter>
+      <Header/>
       <Routes>
         {/*Trang chủ*/}
         <Route path="/" element={<Home/>} />
@@ -79,6 +81,8 @@ function App() {
         <Route path="/hoc-bong" element={<HocBong/>} />
         {/*Tạp chí*/}
         <Route path="/tap-chi" element={<TapChi/>} />
+        {/*Đăng nhập*/}
+        <Route path="/login" element={<LoginForm/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>
