@@ -2,10 +2,8 @@
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    width: 100%;
     text-align: center;
-    padding: 0 300px;
-
+    margin: 10px 200px;
   }
   
   .column-1, .column-2 {
@@ -41,7 +39,7 @@
   
   .input_search {
     width: 100%;
-    padding: 10px 0px 10px 0px; /* Chừa khoảng trống bên phải cho icon */
+    padding: 10px 0px 10px 15px; /* Chừa khoảng trống bên phải cho icon */
     border: 1px solid #ccc;
     border-radius: 5px;
   }

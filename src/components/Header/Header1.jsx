@@ -9,13 +9,13 @@ const Header1 = () => {
         <div class="H1_container">
             <ul>
                 <li>
-                    <a href="">Tạp chí khoa học và đào tạo |</a>
+                    <a href="">Tạp chí khoa học và đào tạo                                              |</a>
                 </li>
                 <li>
-                    <a href="">Tuyển dụng |</a>
+                    <a href="">Tuyển dụng   |</a>
                 </li>
                 <li>
-                    <a href="">Doanh nghiệp |</a>
+                    <a href="">Doanh nghiệp   |</a>
                 </li>
                 <li>
                     <a href="">Góp ý </a>
