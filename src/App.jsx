@@ -53,7 +53,7 @@ function App() {
         <Route path="/huong-nghiep" element={<HuongNghiep/>} />
         <Route path="/thong-tin-tuyen-sinh" element={<TtinTsinh/>} />
         <Route path="/cau-hoi-tu-van" element={<ChoiTvan/>} />
-        <Route path="/trac-nghiem-chon-nghe" element={<TnghiemCnghe/>} />
+        <Route path="/trac-nghiem-chon-nghe" element={"https://stu.edu.vn/vi/285/trac-nghiem-chon-nghe.html"} />
         <Route path="/trac-nghiem-iq" element={<TnghiemIQ/>} />
         <Route path="/ban-do-den-stu" element={<BanDo/>} />
         {/*Phòng ban*/}

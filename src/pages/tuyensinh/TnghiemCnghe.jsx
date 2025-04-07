@@ -4,8 +4,6 @@
 const TnghiemCnghe = () => {
   return (
     <>
-
-    <div>TnghiemCnghe</div>
     </>
   );
 };

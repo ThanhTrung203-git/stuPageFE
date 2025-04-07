@@ -1,5 +1,8 @@
 import '../../App.css'
 import ContentRightPage from '../../components/content/contentRight';
+import Slideshow from '../../components/UI/SlideShow';
+import logo1 from '../../assets/tuyensinh2025.jpg'
+import logo2 from '../../assets/tuyensinh2025-2.png'
 
 
 const TtinTsinh = () => {
@@ -91,8 +94,13 @@ const TtinTsinh = () => {
     }
   ];
 
+  const imageList = [
+    logo1,logo2
+  ];
+
   return (
     <>
+    <Slideshow images={imageList} interval={3000}/>
     <div className="content-container">
       <div className="left-column" style={{lineHeight:'24px'}}>
       <h3 style={{color:'#0C4DA5'}}>Tuyển Sinh Đại Học Chính Quy 2025</h3>
