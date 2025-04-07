@@ -4,7 +4,7 @@ import EventSchedule from "./EventSchedule";
 
 const ContentRightPage = () => {
     const links = [
-        { text: "Bản đồ đến STU", color: "#00A99D", url: "#" },
+        { text: "Bản đồ đến STU", color: "#00A99D", url: "/ban-do-den-stu" },
         { text: "Cổng thông tin đào tạo", color: "#0000FF", url: "#" },
         { text: "LMS Hệ Đại Học", color: "#66BB6A", url: "#" },
         { text: "Thông tin công khai", color: "#03A9F4", url: "#" },
