@@ -12,15 +12,16 @@
     text-decoration: none; /* Bỏ gạch chân mặc định */
     position: relative;
     font-size: 15px;
+    padding-left: 10px;
 }
 
-.link::before, 
+ 
 .link::after {
     content: ">";
     position: absolute;
     bottom: -5px; /* Đưa xuống dưới chữ */
     font-size: 20px; /* Điều chỉnh kích thước */
-    color: yellow; /* Màu dấu lớn */
+    color: #fff; /* Màu dấu lớn */
     opacity: 0; /* Ẩn mặc định */
     transition: opacity 0.3s ease-in-out;
 

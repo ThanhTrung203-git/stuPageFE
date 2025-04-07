@@ -124,11 +124,7 @@
     cursor: pointer;
 }
 
-.see-all-container {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 15px;
-}
+
 
 .content-block {
     margin: 24px 0;

@@ -1,5 +1,6 @@
 import React from "react";
 import "./contentRight.css";
+import EventSchedule from "./EventSchedule";
 
 const ContentRightPage = () => {
     const links = [
@@ -38,6 +39,14 @@ const ContentRightPage = () => {
                 <iframe width="270" height="150" src="https://www.youtube.com/embed/3cZTVrK-UWE?si=xazZhUzQPmWYCLUF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
+
+            
+            <div className="section">
+                <EventSchedule/>
+            </div>
+            
+           
+
         </div>
     );
 };

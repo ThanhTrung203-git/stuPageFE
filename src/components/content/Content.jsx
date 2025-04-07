@@ -4,6 +4,7 @@ import NewsItem from "./newsItem";
 import { Link } from "react-router-dom";
 import "./content.css";
 import SeeAllButton from  "../UI/SeeAllButton"
+import EventSchedule from "./EventSchedule";
 
 const ContentPage = () => {
     const [news, setNews] = useState([]);

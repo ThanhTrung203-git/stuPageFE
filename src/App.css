@@ -17,3 +17,9 @@
     flex: 1;
     box-sizing: border-box;
 }
+
+.see-all-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
