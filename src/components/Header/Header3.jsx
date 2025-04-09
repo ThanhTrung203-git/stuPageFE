@@ -52,7 +52,7 @@ const menuItems = [
   },
   { title: "Trung tâm", link: "http://itpc.edu.vn/" },
   { title: "Thư viện", link: "https://thuvien.stu.edu.vn/" },
-  { title: "Liên hệ", link: "/lien-he" },
+  { title: "Liên hệ", link: "https://stu.edu.vn/vi/274/lien-he.html" },
   {
     title: "Sinh viên",
     subItems: [
