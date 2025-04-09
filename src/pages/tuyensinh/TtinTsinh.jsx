@@ -1,6 +1,6 @@
 import '../../App.css'
 import ContentRightPage from '../../components/content/contentRight';
-import SlideShow from '../../components/UI/SlideShow';
+import SlideShow from '../../components/UI/Slideshow';
 import logo1 from '../../assets/tuyensinh2025.jpg'
 import logo2 from '../../assets/tuyensinh2025-2.png'
 
