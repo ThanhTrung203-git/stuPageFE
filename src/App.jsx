@@ -8,8 +8,6 @@ import CtrinhDtao from "./pages/daotao/CtrinhDtao";
 import HuongNghiep from "./pages/tuyensinh/HuongNghiep";
 import TtinTsinh from "./pages/tuyensinh/TtinTsinh";
 import ChoiTvan from "./pages/tuyensinh/ChoiTvan";
-import TnghiemCnghe from "./pages/tuyensinh/TnghiemCnghe";
-import TnghiemIQ from "./pages/tuyensinh/TnghiemIQ";
 import BanDo from "./pages/tuyensinh/BanDo";
 import PDaotao from "./pages/phongban/PDaotao";
 import PHcNsPc from "./pages/phongban/PHcNsPc";
