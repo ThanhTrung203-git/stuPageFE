@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './SlideShow.css';
+import './slide.css';
 
-const SlideShow = ({ images, interval = 3000 }) => {
+const Slide = ({ images, interval = 3000 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -28,4 +28,4 @@ const SlideShow = ({ images, interval = 3000 }) => {
   );
 };
 
-export default SlideShow;
+export default Slide;
