@@ -1,7 +1,7 @@
 import ContentPage from "../components/content/Content";
 import ContentRightPage from "../components/content/contentRight";
 import Header from "../components/Header/Header";
-import SlideShow from "../components/UI/SlideShow";
+import SlideShow from "../components/UI/Slide";
 import '../App.css'
 import logo1 from '../assets/tuyensinh2025.jpg'
 import logo2 from '../assets/tuyensinh2025-2.png'
