@@ -1,8 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './slide.css';
 
+
+
 const Slide = ({ images, interval = 3000 }) => {
+
+
   const [currentIndex, setCurrentIndex] = useState(0);
+
+
 
   useEffect(() => {
     const slideInterval = setInterval(() => {
@@ -26,6 +32,8 @@ const Slide = ({ images, interval = 3000 }) => {
       </div>
     </div>
   );
+
+  
 };
 
 export default Slide;

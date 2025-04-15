@@ -1,5 +1,6 @@
 import ContentPage from "../components/content/Content";
 import ContentRightPage from "../components/content/contentRight";
+
 import Header from "../components/Header/Header";
 import SlideShow from "../components/UI/Slide";
 import '../App.css'
